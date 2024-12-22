@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('.//assets/fonts/static/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('.//assets/fonts/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('.//assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+    
+    body {
+        background-color: hsl(0, 0%, 8%);
+    }
+    
+    .box1 {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .box-content {
+        border-radius: 1rem;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color:  hsl(0, 0%, 12%);
+        width: 300px;
+        height: 600px;
+    }
+    
+    .box-content img {
+        width: 120px;
+        border-radius: 4rem;
+    }
+    
+    h1 {
+        font-family: 'Inter-bold';
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-family: 'Inter-Regular';
+        color: hsl(75, 94%, 57%);
+        font-size: 13px;
+        font-weight: 600;
+        transform: translate(0, -0.5rem);
+    }
+    
+    h3 {
+        font-family: 'Inter-SemiBold';
+        color: white;
+        font-size: 14px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .box2, .box3, .box4, .box5, .box6 {
+        width: 270px;
+        height: 40px;
+        background-color:hsl(0, 0%, 20%);
+        border-radius: 10px;
+        color: white;
+        font-family: 'inter-Regular';
+        text-align: center;
+        align-content: center;
+    }
+    
+    .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .box2 a, .box3 a, .box4 a, .box5 a, .box6 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        display: flex;
+        flex-direction: column;
+        color: hsl(75, 94%, 57%);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .attribution a { 
+        color: hsl(0, 0%, 100%); 
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1439px) {
+
+    body {
+        background-color: hsl(0, 0%, 8%);
+    }
+    
+    .box1 {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .box-content {
+        border-radius: 1rem;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color:  hsl(0, 0%, 12%);
+        width: 400px;
+        height: 600px;
+    }
+    
+    .box-content img {
+        width: 120px;
+        border-radius: 4rem;
+    }
+    
+    h1 {
+        font-family: 'Inter-bold';
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-family: 'Inter-Regular';
+        color: hsl(75, 94%, 57%);
+        font-size: 13px;
+        font-weight: 600;
+        transform: translate(0, -0.5rem);
+    }
+    
+    h3 {
+        font-family: 'Inter-SemiBold';
+        color: white;
+        font-size: 14px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .box2, .box3, .box4, .box5, .box6 {
+        width: 350px;
+        height: 40px;
+        background-color:hsl(0, 0%, 20%);
+        border-radius: 10px;
+        color: white;
+        font-family: inter-Regular;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .box2 a, .box3 a, .box4 a, .box5 a, .box6 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        display: flex;
+        flex-direction: column;
+        color: hsl(75, 94%, 57%);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .attribution a { 
+        color: hsl(0, 0%, 100%); 
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 8%);
+    }
+    
+    .box1 {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .box-content {
+        border-radius: 1rem;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color:  hsl(0, 0%, 12%);
+        width: 400px;
+        height: 600px;
+    }
+    
+    .box-content img {
+        width: 120px;
+        border-radius: 4rem;
+    }
+    
+    h1 {
+        font-family: 'Inter-bold';
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-family: 'Inter-Regular';
+        color: hsl(75, 94%, 57%);
+        font-size: 13px;
+        font-weight: 600;
+        transform: translate(0, -0.5rem);
+    }
+    
+    h3 {
+        font-family: 'Inter-SemiBold';
+        color: white;
+        font-size: 14px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .box2, .box3, .box4, .box5, .box6 {
+        width: 350px;
+        height: 40px;
+        background-color:hsl(0, 0%, 20%);
+        border-radius: 10px;
+        color: white;
+        font-family: inter-Regular;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+        background-color: hsl(75, 94%, 57%);
+    }
+    
+    .box2 a, .box3 a, .box4 a, .box5 a, .box6 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        display: flex;
+        flex-direction: column;
+        color: hsl(75, 94%, 57%);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .attribution a { 
+        color: hsl(0, 0%, 100%); 
+        text-decoration: none;
+    }
+}
+
+
